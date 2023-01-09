@@ -13,13 +13,11 @@ print("\nGet user input for r (r = rate of interest).")
 r = input("What is your rate of interest? ")
 
 # 4.
-print("\nConvert user inputs p, n, r to int().")
 p = int(p)
 n = int(n)
 r = int(r)
 
 # 5.
-print("\nCalculate the simple interest of p, n, r (multiple p, n, r, and then divide by 100).")
 interest = (p * n * r) / 100
 
 # 6.
@@ -29,8 +27,6 @@ print(interest)
 
 # Part 2
 # 7.
-
-print("\nCreate a list of your favorite food items, the list should have a minimum of 5 elements.")
 fav_food = ["sushi", "steak", "fruit", "cheese", "desserts"]
 
 # 8.
